@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/show_dice1"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@drawable/d6"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-80dp"
+        android:layout_gravity="center_horizontal"
+        ></ImageView>
+
+    <ImageView
+        android:id="@+id/show_dice2"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@drawable/d6"
+        android:layout_marginTop="-300px"
+        android:layout_marginLeft="80dp"
+        android:layout_gravity="center_horizontal"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/dice_num"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/roll_result" />
+
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="280px"
+        android:layout_height="160px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/roll_label" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
